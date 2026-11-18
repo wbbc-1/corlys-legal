@@ -11,12 +11,14 @@ Corlys is a moderation bot used only in servers we manage. It:
 - Keeps Discord's "Pause DMs" security action turned on.
 - Deletes regular messages in designated support channels, while keeping certain messages (such as those from approved bots, pinned messages, and thread starters) and all threads.
 - Bans members that Discord has flagged with "Unusual Account Activity" or "Unusual DM Activity", unless they hold an exempt role, and posts a record of each ban in a moderation channel.
+- Deletes messages in designated invite-sharing channels that contain no Discord invite link, or only invite links that have expired.
 
 ## Use of the bot
 
 - Corlys is not offered for public use. It may only be added to servers by us.
 - Moderation actions are automated and based on signals provided by Discord. We do not guarantee that these signals are accurate.
-- If you believe you were banned in error, contact the server's moderators through [https://appeal.gg/gotdragonfire](https://appeal.gg/gotdragonfire) or [https://appeal.gg/gotconqest](https://appeal.gg/gotconqest). Bans can be reviewed and reversed by server staff.
+- Messages posted in invite-sharing channels may be deleted automatically if they don't contain a working Discord invite link, including when a previously working invite expires.
+- If you believe you were banned in error, contact the server's moderators through [https://appeal.gg/gotdragonfire](https://appeal.gg/gotdragonfire) or [https://appeal.gg/gotconqest](https://appeal.gg/gotconquest). Bans can be reviewed and reversed by server staff.
 - You must follow [Discord's Terms of Service](https://discord.com/terms) and [Community Guidelines](https://discord.com/guidelines) in any server where Corlys is active.
 
 ## No warranty
@@ -29,4 +31,4 @@ We may update these terms at any time. The effective date above shows when they 
 
 ## Contact
 
-Questions about these terms can be made through [https://appeal.gg/gotdragonfire](https://appeal.gg/gotdragonfire) or [https://appeal.gg/gotconqest](https://appeal.gg/gotconqest).
+Questions about these terms can be made through [https://appeal.gg/gotdragonfire](https://appeal.gg/gotdragonfire) or [https://appeal.gg/gotconquest](https://appeal.gg/gotconquest).
