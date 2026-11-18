@@ -18,7 +18,7 @@ Corlys is a moderation bot used only in servers we manage. It:
 - Corlys is not offered for public use. It may only be added to servers by us.
 - Moderation actions are automated and based on signals provided by Discord. We do not guarantee that these signals are accurate.
 - Messages posted in invite-sharing channels may be deleted automatically if they don't contain a working Discord invite link, including when a previously working invite expires.
-- If you believe you were banned in error, contact the server's moderators through [https://appeal.gg/gotdragonfire](https://appeal.gg/gotdragonfire) or [https://appeal.gg/gotconqest](https://appeal.gg/gotconquest). Bans can be reviewed and reversed by server staff.
+- If you believe you were banned in error, contact the server's moderators through [https://appeal.gg/gotdragonfire](https://appeal.gg/gotdragonfire) or [https://appeal.gg/gotconquest](https://appeal.gg/gotconquest). Bans can be reviewed and reversed by server staff.
 - You must follow [Discord's Terms of Service](https://discord.com/terms) and [Community Guidelines](https://discord.com/guidelines) in any server where Corlys is active.
 
 ## No warranty
