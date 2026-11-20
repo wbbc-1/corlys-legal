@@ -13,6 +13,7 @@ Corlys is a moderation bot used only in servers we manage. It:
 - Bans members that Discord has flagged with "Unusual Account Activity" or "Unusual DM Activity", unless they hold an exempt role, and posts a record of each ban in a moderation channel.
 - Deletes messages in designated invite-sharing channels that contain no Discord invite link, only invite links that have expired, or only invites to a server that has been posted again more recently. Only the most recent post for each server is kept.
 - Publishes posts in designated announcement channels, so they also appear in other servers that follow those channels.
+- Posts a monthly list of the most upvoted threads in designated suggestion forums.
 
 ## Use of the bot
 
@@ -20,6 +21,7 @@ Corlys is a moderation bot used only in servers we manage. It:
 - Moderation actions are automated and based on signals provided by Discord. We do not guarantee that these signals are accurate.
 - Messages posted in invite-sharing channels may be deleted automatically if they don't contain a working Discord invite link, including when a previously working invite expires, or when the same server is posted again later by anyone.
 - Posts in designated announcement channels may be published automatically, which shares them, including your username, with every server that follows the channel.
+- Threads you create in designated suggestion forums may be featured, by title, upvote count, and link, in a monthly top suggestions post in the same server.
 - If you believe you were banned in error, contact the server's moderators through [https://appeal.gg/gotdragonfire](https://appeal.gg/gotdragonfire) or [https://appeal.gg/gotconquest](https://appeal.gg/gotconquest). Bans can be reviewed and reversed by server staff.
 - You must follow [Discord's Terms of Service](https://discord.com/terms) and [Community Guidelines](https://discord.com/guidelines) in any server where Corlys is active.
 

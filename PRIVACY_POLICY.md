@@ -12,6 +12,7 @@ Corlys only accesses information that Discord provides to bots through its API, 
 - **Messages in designated support channels:** message ID, author, timestamp, and whether the message is pinned or started a thread. Corlys does not read message text for these actions.
 - **Messages in designated invite-sharing channels:** message ID, author, timestamp, whether the message is pinned, and the message text, including embeds. Corlys reads the text only to find Discord invite links, and checks each invite with Discord to see whether it is still valid and which server it leads to. This requires Discord's Message Content Intent and applies only to these channels.
 - **Messages in designated announcement channels:** message ID, author, timestamp, message type, and whether the message is already published. Corlys does not read message text for this action.
+- **Threads in designated suggestion forums:** thread ID, title, tags, and the number of upvote reactions on the first post. Corlys does not record who reacted.
 - **Server settings:** roles, channels, and security action settings needed to perform its tasks.
 
 Corlys does not read direct messages and does not access the contents of threads.
@@ -24,6 +25,7 @@ The information is used only to:
 - Decide which support channel messages to delete.
 - Delete messages in invite-sharing channels that contain no Discord invite link, only expired invite links, or only invites to a server that has a more recent post in the same channel.
 - Publish recent posts in announcement channels, which makes the post and the author's username visible in servers that follow the channel.
+- Post a monthly list of the most upvoted suggestion threads, with their titles, upvote counts, and links, in the same server.
 - Decide whether to ban a flagged member, and post a record of the ban (user ID, the signal, and the action taken) in a moderation channel visible to server staff.
 
 ## Storage and retention
