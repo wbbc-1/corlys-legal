@@ -1,6 +1,6 @@
 # Corlys Terms of Service
 
-**Effective date:** November 19, 2026
+**Effective date:** November 20, 2026
 
 These terms apply to the Corlys Discord bot ("Corlys", "the bot"), operated by Warner Bros. Games Boston ("we", "us"). By being a member of a server where Corlys is active, or by adding Corlys to a server, you agree to these terms.
 
@@ -13,7 +13,7 @@ Corlys is a moderation bot used only in servers we manage. It:
 - Bans members that Discord has flagged with "Unusual Account Activity" or "Unusual DM Activity", unless they hold an exempt role, and posts a record of each ban in a moderation channel.
 - Deletes messages in designated invite-sharing channels that contain no Discord invite link, only invite links that have expired, or only invites to a server that has been posted again more recently. Only the most recent post for each server is kept.
 - Publishes posts in designated announcement channels, so they also appear in other servers that follow those channels.
-- Posts a monthly list of the most upvoted threads in designated suggestion forums.
+- Posts a monthly list of the most upvoted threads in designated suggestion forums, for the past month and of all time. Threads with certain staff-applied tags (such as "Won't Do" or "Breaks Guidelines") are left out.
 
 ## Use of the bot
 
